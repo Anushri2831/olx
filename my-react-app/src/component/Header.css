@@ -1,0 +1,67 @@
+.olx-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .olx-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #002f34;
+  }
+  
+  .location-dropdown select,
+  .language-dropdown select {
+    border: none;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .category-dropdown {
+    padding: 8px;
+    border: none;
+    background: #f2f2f2;
+  }
+  
+  .search-container input {
+    border: none;
+    padding: 8px;
+    flex-grow: 1;
+    outline: none;
+  }
+  
+  .search-button {
+    background: #002f34;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+  }
+  
+  .sell-button {
+    background: linear-gradient(to right, #23a6f0, #1f8ceb);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
