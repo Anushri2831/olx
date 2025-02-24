@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import {FaSearch} from "react-icons/fa";
+import { FaCaretDown } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -11,11 +12,12 @@ const Header = () => {
       </div>
 
       {/* Location Dropdown */}
-      <div className="location-dropdown">
-      <FaSearch />
-         <input type="text" placeholder="India" name="india" >
-         
-         </input>
+      <div className="search-box">
+      <div className="dropdown">
+        <button className="dropdown-btn"><FaSearch /></button>
+      </div>
+      <input type="text" placeholder="India" className="search-input" />
+      <button className="search-btn"> <FaCaretDown /></button>
         
       
       </div>

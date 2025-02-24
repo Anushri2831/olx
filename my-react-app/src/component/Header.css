@@ -13,16 +13,52 @@
     color: #002f34;
   }
   
-.location-dropdown{
+.search-box{
+  display:flex;
+  align-items:center;
   border:1px solid black;
-  
+  border-radius:5px;
+  overflow:hidden;
+  width:300px;
+  background: white;
 }
 
+
+
+
+.dropdown-btn{
+  background: none;
+  border:none;
+  padding:8px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+
+
+.search-input{
+  flex:1;
+  border:none;
+  padding:8px;
+  outline:black;
+
+}
+
+
+
+
+.search-btn{
+  background: none;
+  border:none;
+  padding:8px;
+  cursor:pointer;
+  font-size: 24px;
+}
   
   .search-container {
     display: flex;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
     overflow: hidden;
   }
