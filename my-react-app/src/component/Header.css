@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background: white;
+    background: transparent;
     border-bottom: 1px solid #ddd;
   }
   
@@ -13,13 +13,6 @@
     color: #002f34;
   }
   
-  .location-dropdown select,
-  .language-dropdown select {
-    border: none;
-    font-size: 16px;
-    background: transparent;
-    cursor: pointer;
-  }
   
   .search-container {
     display: flex;
