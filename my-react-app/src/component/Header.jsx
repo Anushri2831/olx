@@ -2,6 +2,9 @@ import React from "react";
 import "./Header.css";
 import {FaSearch} from "react-icons/fa";
 import { FaCaretDown } from "react-icons/fa";
+import { AiOutlineHeart } from "react-icons/ai";
+import { FaComment } from "react-icons/fa";
+import  {IoNotificationsOutline} from "react-icons/io5";
 
 const Header = () => {
   return (
@@ -25,22 +28,25 @@ const Header = () => {
       {/* Search Bar */}
       <div className="search-container">
        <input type="text" placeholder='Search  "Properties"  '  ></input>
-       <button className="search"><FaSearch  color="white"/></button>
+       <button className="search"><FaSearch size={20} color="white"/></button>
       </div>
 
       {/* Language Dropdown */}
       <div className="language-dropdown">
-        <select>
-          <option>ENGLISH</option>
-        </select>
+        <p style={{top:"10px" , fontFamily:"sans-serif"}}>ENGLISH <FaCaretDown  size={20}/></p>
       </div>
 
       {/* Icons */}
       <div className="header-icons">
-        <span>♡</span>
-        <span>💬</span>
-        <span>🔔</span>
-        <span className="profile-icon">👤</span>
+        <span><AiOutlineHeart size={25} /></span>
+        <span><FaComment size={25} /></span>
+        <span><IoNotificationsOutline size={25} /></span>
+      
+      </div>
+
+      <div className="top">
+        <img src="https://th.bing.com/th/id/OIP.ePTBsw0y7DRxaM6p0bw1HQHaHa?w=207&h=207&c=7&r=0&o=5&pid=1.7" height="35px" width="50px"/>
+         <FaCaretDown size={28} />
       </div>
 
       {/* Sell Button */}
