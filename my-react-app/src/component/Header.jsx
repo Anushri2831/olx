@@ -24,11 +24,8 @@ const Header = () => {
 
       {/* Search Bar */}
       <div className="search-container">
-        <select className="category-dropdown">
-          <option>All Categories</option>
-        </select>
-        <input type="text" placeholder='Search "Properties"' />
-        <button className="search-button">🔍</button>
+       <input type="text" placeholder='Search  "Properties"  '  ></input>
+       <button className="search"><FaSearch  color="white"/></button>
       </div>
 
       {/* Language Dropdown */}

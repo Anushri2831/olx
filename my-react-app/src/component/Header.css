@@ -75,6 +75,20 @@
     flex-grow: 1;
     outline: none;
   }
+
+
+.search-container{
+  height:45px;
+  width:400px;
+}
+
+  .search{
+    border:3px solid black;
+    background-color: black;
+    height:400px;
+    width:50px;
+    
+  }
   
   .search-button {
     background: #002f34;
@@ -82,6 +96,11 @@
     padding: 8px 12px;
     border: none;
     cursor: pointer;
+  }
+
+
+  .search-container input{
+    font-size:17px;
   }
   
   .header-icons {
