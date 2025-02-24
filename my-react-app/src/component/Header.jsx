@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import {FaSearch} from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -11,8 +12,10 @@ const Header = () => {
 
       {/* Location Dropdown */}
       <div className="location-dropdown">
-        
-         <input type="text" placeholder="India" name="india"></input>
+      <FaSearch />
+         <input type="text" placeholder="India" name="india" >
+         
+         </input>
         
       
       </div>

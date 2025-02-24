@@ -13,6 +13,11 @@
     color: #002f34;
   }
   
+.location-dropdown{
+  border:1px solid black;
+  
+}
+
   
   .search-container {
     display: flex;
