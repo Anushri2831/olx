@@ -62,14 +62,8 @@ const Header = () => {
 
 
 
-      <div className="header2">
-        <span style={{gap:"40px"}}>car</span>
-        <span>Motorcycles </span>
-        <span>Mobile Phones</span>
-        <span>For Sale: Houses& Apartments</span>
-        <span>Scooters</span>
-        <span>Commercial & Other Vehicles</span>
-        <span>For Rent: Houses & Apartments</span>
+      <div className="header2" style={{display:"flex", gap:"30px"}}>
+        <span>Car</span><span>Motorcycles</span><span>Mobile Phones</span><span>For Sale:Houses & Apartments</span> <span> Scooters</span><span>Commercial & Other Vehicles </span> <span>For Rent:Houses & Apartments</span>
       </div>
       </div>
 
