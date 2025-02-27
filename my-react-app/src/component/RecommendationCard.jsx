@@ -6,8 +6,16 @@ const RecommendationCard = ({ item }) => {
     <div className="recommendation-card">
       <div className="image-container">
         <img src={item.image} alt={item.title} />
-        {item.featured && <span className="featured-tag">FEATURED</span>}
         <button className="wishlist-btn">❤</button>
+        </div>
+        <div className="card-content">
+          <div className="left-border"></div>
+            <div className="content-wrapper">
+            {item.featured && <span className="featured-tag">FEATURED</span>}
+            
+          
+       
+        
       </div>
       <div className="card-content">
         <h3 className="price">₹ {item.price}</h3>
@@ -15,6 +23,7 @@ const RecommendationCard = ({ item }) => {
         <p className="location">{item.location}</p>
         <p className="date">{item.date}</p>
       </div>
+    </div>
     </div>
   );
 };
