@@ -29,6 +29,7 @@
     border-radius:3px;
     display:inline-block;
     margin-bottom:5px;
+    transform: translateY(-600%);
   }
   
   .wishlist-btn {
@@ -42,7 +43,8 @@
   }
   
   .card-content {
-    padding: 10px;
+    padding: 6px;
+    justify-content: left;
   }
   
   .price {
@@ -64,15 +66,29 @@
   }
 
   .left-border{
-    width:3px;
-    height:100%;
+    width:4px;
     background: gold;
-    margin-right:10px;
-    border-radius: 2px;
+    transform: translateX(20%);
+    border-radius: 7px;
+    height: 100px;
+    transform: translateY(230%);
+    padding:1px;
+    
   }
 
   .content-wrapper{
     flex:1;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+  
 
+  }
+
+  .recommendation-card .has-border {
+    margin-left: none;
+    padding:none;
+
+   
+   
+    
   }

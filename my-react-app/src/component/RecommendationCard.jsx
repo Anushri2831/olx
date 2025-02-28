@@ -1,9 +1,9 @@
 import React from "react";
 import "./RecommendationCard.css";
 
-const RecommendationCard = ({ item }) => {
+const RecommendationCard = ({ item , showBorder}) => {
   return (
-    <div className="recommendation-card">
+    <div className={`recommendation-card ${showBorder ? "has-border" : " "}`}>
       <div className="image-container">
         <img src={item.image} alt={item.title} />
         <button className="wishlist-btn">❤</button>

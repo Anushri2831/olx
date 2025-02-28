@@ -32,7 +32,7 @@ const recommendations = [
   },
   {
     id: 4,
-    image: "https://th.bing.com/th/id/OIP.w5VlLG67mqXwtTV6EXLfugHaHa?w=161&h=180&c=7&r=0&o=5&pid=1.7" ,
+    image: "https://th.bing.com/th/id/OIP.8tw0X7PsVznuLroNIO7IWwHaEK?w=276&h=180&c=7&r=0&o=5&pid=1.7" ,
     price: "30,000",
     title: "Selling my 6-month-old Samsung",
     location: "Samudrapur MIDC, Maharashtra",
@@ -46,8 +46,8 @@ const FreshRecommendations = () => {
     <div className="fresh-recommendations">
       <h2>Fresh recommendations</h2>
       <div className="recommendations-list">
-        {recommendations.map((item) => (
-          <RecommendationCard key={item.id} item={item} />
+        {recommendations.map((item, index) => (
+          <RecommendationCard key={item.id} item={item} showBorder={index < 2} />
         ))}
       </div>
     </div>
