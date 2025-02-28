@@ -1,0 +1,35 @@
+.image-gallery {
+    position: relative;
+    width: 500px;
+  }
+  .image-gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  .prev-btn { left: 0; }
+  .next-btn { right: 0; }
+  .thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  .thumbnails img {
+    width: 50px;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  .thumbnails img.active {
+    border: 2px solid #007bff;
+    opacity: 1;
+  }

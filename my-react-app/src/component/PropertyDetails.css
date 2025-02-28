@@ -1,0 +1,11 @@
+.property-details {
+    flex: 1;
+  }
+  .details-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .details-table td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
